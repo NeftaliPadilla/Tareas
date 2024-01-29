@@ -1,0 +1,36 @@
+body{
+    color:red;
+    background-image: url(5.jpg);
+}
+#titulo1{
+    color:black;
+    font-weight: 600pt;
+    font-size: 90pt;
+}
+.parrafo1{
+    color:midnightblue;
+}
+div{
+    background-color:rgba(240, 248, 255, 0.577);
+    width: 600px;
+    margin: 0 auto;
+}
+nav ul{
+    background-color:cadetblue;
+    display:flex;
+}
+nav ul li{
+    list-style: none;
+    
+}
+nav ul li a{
+    color: black;
+    display: block;
+    width: 170px;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color:cornflowerblue;
+}
+
+

@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+}
+.elemento{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    border:5px solid;
+    border-radius: 360px;
+    transition: background-color 2s ease, height 2s ease, width 2s ease, transform 2s ease; /*ase mas lento la animacion */
+    transform-origin: center center;
+}
+.elemento:hover{/*ase que cambie el elemento de color y de tamano*/
+    background-color: brown;
+    height: 300px;
+    width: 300px;
+    transform: rotate(90deg);
+}
+
+nav ul{
+    display:flex;
+}
+nav ul li{
+    list-style:none;
+}
+nav li{
+    margin: 0;
+    position: relative;
+
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    display:block;
+    color: black;
+    width: 120px;
+    text-align: center;
+}
+nav a:hover{
+    background-color: khaki;
+}
+.submenu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.mostrar-submenu:hover .submenu{
+    display:block;
+}

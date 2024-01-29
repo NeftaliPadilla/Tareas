@@ -1,0 +1,124 @@
+body{
+    margin:0;
+    padding: 0;
+}
+header{
+    background: url(5.jpg);
+}
+nav{
+    background-color: rgb(154, 228, 228);
+}
+article{
+    background-color: rgb(36, 150, 168);
+}
+aside{
+    background-color: rgb(83, 189, 235);
+}
+footer{
+    background-color: rgb(13, 176, 205);
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+#titulo1{
+    color:black;
+    font-weight: 200pt;
+    font-size: 50pt;
+    text-align: center;
+}
+header{
+    flex: 0;
+}
+nav{
+    flex:0;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+article{
+    flex: 4;
+}
+aside{
+    flex: 1;
+}
+h1, h2{
+    margin: 0;
+}
+footer{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+footer div{
+    flex: 1;
+}
+
+li{
+    font-size: 20pt; 
+}
+.parrafo{
+    color:rgb(0, 0, 0);
+    font-size: 20pt;
+}
+nav ul{
+    display:flex;
+}
+nav ul li{
+    list-style:none;
+}
+nav li{
+    margin: 0;
+    position: relative;
+
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    display:block;
+    color: black;
+    width: 280px;
+    text-align: center;
+}
+nav a:hover{
+    background-color: khaki;
+}
+.submenu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: antiquewhite;
+}
+.mostrar-submenu:hover .submenu{
+    display:block;
+}
+#box{
+    background-color: aqua;
+    margin:100px;
+    padding:50px;
+    border:5px solid;
+    border-radius: 50px;
+    box-shadow: 5px 10px 10px 0 #744f4f;
+}
+#box1{
+    background-color: blueviolet;
+}
+#titulo{
+    color: brown;
+    font-family: sans-serif;
+    font-size: 78px;
+    text-transform: uppercase; /*para poner en mayusculas o minusculas */
+    font-weight: 800; /*para aumentar el grosor de la tipografia*/
+    font-style: italic;/*es para poner negritas o subrayado*/
+    text-shadow: 5px 10px 10px #333;
+    text-align: center;
+}
+img{
+    float:right;
+}
+
+
